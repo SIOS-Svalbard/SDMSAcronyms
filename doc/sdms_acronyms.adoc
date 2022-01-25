@@ -24,6 +24,10 @@ Acronyms and Concepts
 |0.1 |2017-02-03 |First draft based on a similar document for NorDataNet. |Øystein Godøy
 |=======================================================================
 
+This work is released under the Creative Commons Attribution 4.0 License. To view a copy of the license, visit https://creativecommons.org/licenses/by/4.0/. 
+
+image::Pictures/ccby.png[]
+
 toc::[]
 
 == Introduction
