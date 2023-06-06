@@ -1,8 +1,6 @@
-:doctype: book
+:doctype: article
 :pdf-folio-placement: physical
-:title-logo-image: image::Pictures/100002010000064000000416954AF1BF569C4DD3.png[pdfwidth=15cm,align=right]
-= Technical documentation
-Acronyms and Concepts
+:title-logo-image: image::Pictures/sios-fc.png[pdfwidth=15cm,align=right]
 :sectanchors:
 :toc: macro
 :toclevels: 4
@@ -10,6 +8,9 @@ Acronyms and Concepts
 :sectnumlevels: 6
 :chapter-label:
 :xrefstyle: short
+:title-page:
+= Technical documentation
+Acronyms and Concepts
 
 [discrete]
 == Versions
@@ -28,19 +29,36 @@ This work is released under the Creative Commons Attribution 4.0 License. To vie
 
 image::Pictures/ccby.png[]
 
+<<<
+
 toc::[]
+
+<<<
 
 == Introduction
 
-Environmental and climate changes are currently observed at a global scale and in particular in the Arctic. In order to give better estimates of the future changes, the Arctic has to be monitored and analysed by a multi-disciplinary observation system which is suited to validate and gradually improve Earth System Models. The best chance to achieve significant results within a relatively short time frame is found in regions with a large natural climate gradient, and where processes sensitive to the expected changes are particularly important.
+Environmental and climate changes are currently observed at a global scale and in particular in the Arctic. 
+In order to give better estimates of the future changes, the Arctic has to be monitored and analysed by a multi-disciplinary observation system which is suited to validate and gradually improve Earth System Models. 
+The best chance to achieve significant results within a relatively short time frame is found in regions with a large natural climate gradient, and where processes sensitive to the expected changes are particularly important.
 
-Svalbard and the surrounding ocean areas fulfil all these criteria: Svalbard is located in a region with a very large climate gradient, being alternately influenced by cold central Arctic or mild marine climate conditions at time scales of weeks to years. It is also located in the region with the strongest inflow and outflow processes between the Arctic and lower-latitude oceans. In addition, Svalbard is the only region in the world (and has the facilities) where one can study and quantify one of the remaining unknowns in the climate puzzle: the extraterrestrial and especially solar influence on climate.
+Svalbard and the surrounding ocean areas fulfil all these criteria: Svalbard is located in a region with a very large climate gradient, being alternately influenced by cold central Arctic or mild marine climate conditions at time scales of weeks to years. 
+It is also located in the region with the strongest inflow and outflow processes between the Arctic and lower-latitude oceans. 
+In addition, Svalbard is the only region in the world (and has the facilities) where one can study and quantify one of the remaining unknowns in the climate puzzle: the extraterrestrial and especially solar influence on climate.
 
-The vision for the Svalbard Integrated Arctic Earth Observing System (SIOS) is to be a regional observational system for long term acquisition and proliferation of fundamental knowledge on global environmental change (GEC) within an Earth System Science (ESS) perspective in and around Svalbard. SIOS will systematically develop and implement methods for how observational networks are to be construed and thus become a leader regarding observational systems in the Arctic and Polar regions.The SIOS Data Management System (SDMS) Data Portal is the entry point to SIOS datasets. It offers a web interface that contains information about datasets (metadata). These metadata are harvested on a regular basis from data centres contributing to SIOS. These data centres manage the data on behalf of the owners/providers of the data.
+The vision for the Svalbard Integrated Arctic Earth Observing System (SIOS) is to be a regional observational system for long term acquisition and proliferation of fundamental knowledge on global environmental change (GEC) within an Earth System Science (ESS) perspective in and around Svalbard. 
+SIOS will systematically develop and implement methods for how observational networks are to be construed and thus become a leader regarding observational systems in the Arctic and Polar regions.
+The SIOS Data Management System (SDMS) Data Portal is the entry point to SIOS datasets. 
+It offers a web interface that contains information about datasets (metadata). These metadata are harvested on a regular basis from data centres contributing to SIOS. 
+These data centres manage the data on behalf of the owners/providers of the data.
 
-A major innovative element of SIOS will be the Knowledge Centre (KC), which will facilitate interaction between observation, modelling and process research, strategic processes, a service point to user communities and a platform for data handling and utilization [3]. The SIOS Data Management System (SDMS) will be a functionality enabling component of the Knowledge Centre, supporting data submission, discovery, access, use and preservation of SIOS relevant data sets.
+A major innovative element of SIOS will be the Knowledge Centre (KC), which will facilitate interaction between observation, modelling and process research, strategic processes, a service point to user communities and a platform for data handling and utilization. 
+The SIOS Data Management System (SDMS) will be a functionality enabling component of the Knowledge Centre, supporting data submission, discovery, access, use and preservation of SIOS relevant data sets (<<RD-1>>, <<RD-2>>).
 
-For the SDMS the term “data set” is defined in line with the INSPIRE Directive as “an identifiable collection of spatial data”, i.e. a collection of data that has a reference by name or coordinates to a geographic location or area, and which in addition have a designated start and end time. A data set can contain observations (remote or in situ), derived quantities (from either of these two types of data sources) or forecasts of future states of environmental parameters. The data values can be located at a single point, along a line or transect, in a regular or irregular grid, and be captured or estimated at one or more altitudes/depths. A data set can be stored on paper, in files (one or more), or in a database, and is often accompanied by descriptions (metadata) of its content. The purpose of the SDMS is to the SIOS user community with a single entry point to relevant datasets. It is however not the purpose to centralise all data, but rather to integrate existing and future data centres contributing to SIOS using machine readable interfaces to metadata and data.
+For the SDMS the term “data set” is defined in line with the INSPIRE Directive as “an identifiable collection of spatial data”, i.e. a collection of data that has a reference by name or coordinates to a geographic location or area, and which in addition have a designated start and end time. 
+A data set can contain observations (remote or in situ), derived quantities (from either of these two types of data sources) or forecasts of future states of environmental parameters. 
+The data values can be located at a single point, along a line or transect, in a regular or irregular grid, and be captured or estimated at one or more altitudes/depths. 
+A data set can be stored on paper, in files (one or more), or in a database, and is often accompanied by descriptions (metadata) of its content. The purpose of the SDMS is to the SIOS user community with a single entry point to relevant datasets. 
+It is however not the purpose to centralise all data, but rather to integrate existing and future data centres contributing to SIOS using machine readable interfaces to metadata and data.
 
 The first version of this document is based on a similar document
 developed for NorDataNet.
@@ -48,13 +66,15 @@ developed for NorDataNet.
 == Scope of document
 [options=unbreakable]
 
-This document describes various acronyms and concepts needed to establish a documentation framework for the definition of the SIOS Data Management System (SDMS). Wherever possible, the document refers to online documentation for further reading. A brief knowledge of the concepts identified in this document is required to follow the documentation system SIOS is using.
+This document describes various acronyms and concepts needed to establish a documentation framework for the definition of the SIOS Data Management System (SDMS). 
+Wherever possible, the document refers to online documentation for further reading. 
+A brief knowledge of the concepts identified in this document is required to follow the documentation system SIOS is using.
 
 == Applicable documents
 
-[arabic]
-. SIOS Interoperability Guidelines Document
-. SIOS Operations Manual
+[horizontal]
+[[RD-1]][RD-1]:: https://github.com/SIOS-Svalbard/SDMSInteroperabilityGuidelines/blob/master/doc/sdms_iog.pdf[SDMS Interoperability Guidelines Document]
+[[RD-2]][RD-2]:: SIOS Operations Manual (Not Public available)
 
 == Acronyms
 
