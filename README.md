@@ -1,8 +1,9 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
-# Acronum document
+# SDMS Acronym document
 
 ## Purpose
-The purpose of this repository is to establish a collaborative work flow developing the SIOS Data Management System (SDMS) acronyms document. This is used to establish a common language when interpreting the documentation developed.
+The purpose of this repository is to establish a collaborative work flow developing the SIOS Data Management System (SDMS) acronyms document. 
+This is used to establish a common language when interpreting the documentation developed.
 
 The document is automatically processed into a PDF and HTML variant. These versions are available through the links below. Please beware that the document provided through the links is the most recent working copy.
 
