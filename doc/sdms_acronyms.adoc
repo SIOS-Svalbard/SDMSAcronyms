@@ -18,6 +18,7 @@ Acronyms and Concepts
 |=======================================================================
 <|Version <|Date |Comment |Responsible
 
+|0.5 |2023-06-06 |Cleaned | Øystein Godøy
 |0.4 |2022-02-25 |Added use metadata |Øystein Godøy
 |0.3 |2020-03-15 |Cleaning of old comments and minor modifications.  |Øystein Godøy
 |0.2 |2017-03-17 |Comments from Markus. a| Markus Fiebig + 
@@ -52,7 +53,7 @@ It offers a web interface that contains information about datasets (metadata). T
 These data centres manage the data on behalf of the owners/providers of the data.
 
 A major innovative element of SIOS will be the Knowledge Centre (KC), which will facilitate interaction between observation, modelling and process research, strategic processes, a service point to user communities and a platform for data handling and utilization. 
-The SIOS Data Management System (SDMS) will be a functionality enabling component of the Knowledge Centre, supporting data submission, discovery, access, use and preservation of SIOS relevant data sets (<<RD-1>>, <<RD-2>>).
+The SIOS Data Management System (SDMS) will be a functionality enabling component of the Knowledge Centre, supporting data submission, discovery, access, use and preservation of SIOS relevant data sets (<<RD-1>>, <<RD-2>>, <<RD-3>>).
 
 For the SDMS the term “data set” is defined in line with the INSPIRE Directive as “an identifiable collection of spatial data”, i.e. a collection of data that has a reference by name or coordinates to a geographic location or area, and which in addition have a designated start and end time. 
 A data set can contain observations (remote or in situ), derived quantities (from either of these two types of data sources) or forecasts of future states of environmental parameters. 
@@ -73,8 +74,9 @@ A brief knowledge of the concepts identified in this document is required to fol
 == Applicable documents
 
 [horizontal]
-[[RD-1]][RD-1]:: https://github.com/SIOS-Svalbard/SDMSInteroperabilityGuidelines/blob/master/doc/sdms_iog.pdf[SDMS Interoperability Guidelines Document]
-[[RD-2]][RD-2]:: SIOS Operations Manual (Not Public available)
+[[RD-1]][RD-1]:: [[siosdatapolicy]] https://sios-svalbard.org/sites/sios-svalbard.org/files/common/SIOS_Data_Policy.pdf[SIOS Data Policy]
+[[RD-2]][RD-2]:: https://github.com/SIOS-Svalbard/SDMSInteroperabilityGuidelines/blob/master/doc/sdms_iog.pdf[SDMS Interoperability Guidelines Document]
+[[RD-3]][RD-3]:: SIOS Operations Manual (Not Public available)
 
 == Acronyms
 
