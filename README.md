@@ -1,5 +1,5 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
-# Interoperability Guidelines for the SIOS Data Management System (SDMS).
+# Acronum document
 
 ## Purpose
 The purpose of this repository is to establish a collaborative work flow developing the SIOS Data Management System (SDMS) acronyms document. This is used to establish a common language when interpreting the documentation developed.
